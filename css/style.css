@@ -228,12 +228,6 @@ time {
   margin-bottom: 50px;
   margin-top: 93px;
 }
-.bottom-border {
-  width: 110.769px;
-  height: 1px;
-  background-color: white;
-  margin: 50px 424px;
-}
 .bg-images {
   background: url("../images/back-2.png");
   background-size: cover;
@@ -309,12 +303,12 @@ time {
   box-shadow: inset 960px 730px rgba(0, 0, 0, 0.265);
 }
 .d-flex {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-item: center;
-  width: 100%;
   flex-direction: column;
-  text-align: center;
+  text-align: center !important;
 }
 .top-section-h2 {
   text-align: center;
@@ -327,13 +321,6 @@ time {
   line-height: normal;
   text-transform: uppercase;
   margin: 100px 232px 20px;
-}
-.bottom-border {
-  width: 120px;
-  height: 1px;
-  background-color: white;
-  margin: 50px 424px;
-  margin-bottom: 40px;
 }
 .top-section-paragriph {
   margin: 0px 234px;
@@ -363,7 +350,19 @@ time {
 .btn-link:hover {
   box-shadow: inset 100px 60px 100px 60px #19b3a9;
 }
-
+.bottom-card-h3 {
+  padding-top: 180px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: var(--playfair);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
 .container-card {
   max-width: 1054px;
   margin: 0 auto;
@@ -418,6 +417,42 @@ time {
   gap: 30px;
 }
 .bottom-border {
-  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 40px;
 }
+.bottom-border-18 {
+  width: 120px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.bottom-border-cat {
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.bottom-border-dt {
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
 /* ======================  FOOTER END  ====================== */
